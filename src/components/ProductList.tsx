@@ -13,7 +13,7 @@ type ProductListProps = {
 const steps = [
   { key: "lotion" as const, label: "化粧水", cls: "lotion" as const, num: "Step 1" },
   { key: "serum" as const, label: "美容液", cls: "serum" as const, num: "Step 2" },
-  { key: "cream" as const, label: "乳液", cls: "cream" as const, num: "Step 3" },
+  { key: "cream" as const, label: "乳液・クリーム", cls: "cream" as const, num: "Step 3" },
 ];
 
 export default function ProductList({ selectedSet }: ProductListProps) {
