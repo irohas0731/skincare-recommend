@@ -9,7 +9,7 @@ export default function WarningBox({ text, show }: WarningBoxProps) {
   return (
     <div
       className={`
-        mt-20 bg-warning-bg border-[1.5px] border-warning-border rounded-[10px] px-[18px] py-4
+        mt-24 bg-warning-bg border-[1.5px] border-warning-border rounded-[10px] px-[18px] py-4
         transition-all duration-400 ease-[cubic-bezier(0.22,1,0.36,1)] delay-500
         ${show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2.5"}
       `}
