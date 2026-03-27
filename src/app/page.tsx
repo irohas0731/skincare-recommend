@@ -30,7 +30,7 @@ export default function Home() {
       <section
         ref={resultRef}
         className={`
-          px-5 pb-10
+          px-6 pb-10
           transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
           ${selectedSet ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5 pointer-events-none"}
         `}
