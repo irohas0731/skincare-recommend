@@ -18,7 +18,7 @@ export default function ConcernCard({
       type="button"
       onClick={onSelect}
       className={`
-        relative overflow-hidden text-left rounded-[10px] border-[1.5px] px-3.5 py-4
+        relative overflow-hidden text-left rounded-[10px] border-[1.5px] px-5 py-5
         transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] cursor-pointer
         before:content-[''] before:absolute before:top-0 before:left-0 before:right-0
         before:h-[3px] before:bg-accent before:transition-transform before:duration-300 before:ease-out
