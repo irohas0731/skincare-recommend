@@ -14,7 +14,7 @@ export const sets: ConcernSet[] = [
     lotion: "グルタチオン アンプル トナー",
     serum: "ダークスポットセラム",
     cream: "プロバイオダーム3D リフティングクリーム",
-    warning: "",
+    warning: "なし、気にせず使おう。",
   },
   {
     concern: "乾燥",
@@ -22,7 +22,7 @@ export const sets: ConcernSet[] = [
     lotion: "シルク ペプチド EGF スムージングトナー",
     serum: "PDRN ヒアルロン酸カプセル100セラム",
     cream: "ブルービーン B5-PDRN マイルドクリーム",
-    warning: "",
+    warning: "なし、気にせず使おう。",
   },
   {
     concern: "開き毛穴",
@@ -48,16 +48,16 @@ export const sets: ConcernSet[] = [
     lotion: "ティーツリーシカスージングトナー",
     serum: "ジンクテカBセラム",
     cream: "セラミドパンテノール モイスチャーバリアクリーム",
-    warning: "",
+    warning: "ニキビができた？どんどん使おう。",
   },
   {
     concern: "色素沈着",
     desc: "シミ・色素沈着が気になる",
-    lotion: "PDRN 100 ヒアルロン酸 ブースタートナー",
-    serum: "レチノール0.3ナイアシンリニューイングセラム",
-    cream: "プロバイオダーム3D リフティングクリーム",
+    lotion: "リードルショット S300",
+    serum: "ビタミンC アスタキサンチンセラム",
+    cream: "PDRN＋カプセルクリーム",
     warning:
-      "レチノールは、A反応（好転反応）が出る場合があるので、週2〜3日使用して徐々に肌を慣らしていく。過剰な反応が出たら使用を控えること。朝使うのは禁止。",
+      "リードルショットS○○ は、美容針の本数。慣れてない方は少なめから始めるのがベスト",
   },
   {
     concern: "エイジング",

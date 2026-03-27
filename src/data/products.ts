@@ -1,11 +1,11 @@
 export type Product = {
-  category: "化粧水" | "美容液" | "乳液";
+  category: string;
   brand: string;
   image: string;
 };
 
 export const products: Record<string, Product> = {
-  ティーツリーシカスージングトナー: {
+  "ティーツリーシカスージングトナー": {
     category: "化粧水",
     brand: "bring green",
     image: "1.jpg",
@@ -25,6 +25,11 @@ export const products: Record<string, Product> = {
     brand: "アヌア",
     image: "4.jpg",
   },
+  "リードルショット S300": {
+    category: "化粧水",
+    brand: "VTCOSMETICS",
+    image: "14.jpg",
+  },
   "RX ザ・ビタミン C23 セラム": {
     category: "美容液",
     brand: "COSRX",
@@ -35,7 +40,7 @@ export const products: Record<string, Product> = {
     brand: "アヌア",
     image: "6.jpg",
   },
-  ジンクテカBセラム: {
+  "ジンクテカBセラム": {
     category: "美容液",
     brand: "bring green",
     image: "7.jpg",
@@ -45,7 +50,7 @@ export const products: Record<string, Product> = {
     brand: "アヌア",
     image: "8.jpg",
   },
-  ダークスポットセラム: {
+  "ダークスポットセラム": {
     category: "美容液",
     brand: "アヌア",
     image: "9.jpg",
@@ -54,6 +59,11 @@ export const products: Record<string, Product> = {
     category: "美容液",
     brand: "アヌア",
     image: "10.jpg",
+  },
+  "ビタミンC アスタキサンチンセラム": {
+    category: "美容液",
+    brand: "VTCOSMETICS",
+    image: "15.jpg",
   },
   "プロバイオダーム3D リフティングクリーム": {
     category: "乳液",
@@ -69,5 +79,10 @@ export const products: Record<string, Product> = {
     category: "乳液",
     brand: "bring green",
     image: "13.jpg",
+  },
+  "PDRN＋カプセルクリーム": {
+    category: "乳液",
+    brand: "VTCOSMETICS",
+    image: "16.jpg",
   },
 };
