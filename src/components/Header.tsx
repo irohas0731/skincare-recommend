@@ -14,6 +14,9 @@ export default function Header() {
         <br />
         化粧水・美容液・乳液をご提案します
       </p>
+      <p className="mt-3 text-[11px] text-text-light leading-relaxed">
+        ※このサイトは、まさきちの知識を詰め込んだだけのものなので、表示される商品以外にも有効な成分の商品は数多く存在します。更新はおそらくめんどくさいのでしません笑
+      </p>
     </header>
   );
 }
