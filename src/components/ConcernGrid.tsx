@@ -13,7 +13,7 @@ export default function ConcernGrid({
   onSelect,
 }: ConcernGridProps) {
   return (
-    <section className="px-6 pb-4">
+    <section className="pb-4">
       <div className="text-[11px] tracking-[2px] uppercase text-text-light mb-3.5 text-center">
         Select your concern
       </div>

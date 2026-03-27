@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="pt-12 pb-5 px-6 text-center">
+    <header className="pt-12 pb-5 text-center">
       <div className="font-serif text-[13px] tracking-[4px] uppercase text-text-light mb-4">
         Skin Care Guide
       </div>

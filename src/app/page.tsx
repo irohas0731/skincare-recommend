@@ -21,7 +21,7 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-[430px] mx-auto min-h-screen relative">
+    <div className="max-w-[430px] mx-auto min-h-screen relative px-6">
       <Header />
       <ConcernGrid
         selectedConcern={selectedConcern}
@@ -30,7 +30,7 @@ export default function Home() {
       <section
         ref={resultRef}
         className={`
-          px-6 pb-10
+          pb-10
           transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
           ${selectedSet ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5 pointer-events-none"}
         `}
